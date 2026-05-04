@@ -16,7 +16,7 @@ from app.core.deps import get_current_user, get_project_member, require_project_
 router = APIRouter()
 
 
-@router.get("/", response_model=List[ProjectSummary])
+@router.get("", response_model=List[ProjectSummary])
 async def list_projects(
     current_user: User = Depends(get_current_user),
     db: AsyncSession = Depends(get_db),
@@ -44,7 +44,7 @@ async def list_projects(
     return summaries
 
 
-@router.post("/", response_model=ProjectOut, status_code=status.HTTP_201_CREATED)
+@router.post("", response_model=ProjectOut, status_code=status.HTTP_201_CREATED)
 async def create_project(
     payload: ProjectCreate,
     current_user: User = Depends(get_current_user),
