@@ -1,0 +1,30 @@
+# Virtual environment
+.venv/
+venv/
+env/
+
+# Environment variables - NEVER commit this
+.env
+.env.*
+
+# Python cache
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.Python
+
+# Distribution / packaging
+dist/
+build/
+*.egg-info/
+
+# IDE
+.vscode/
+.idea/
+
+# Docker
+*.log
+
+# Alembic (keep alembic.ini but ignore generated migration envs if needed)
+# migrations/versions/  ← don't ignore this if you have migrations
