@@ -54,7 +54,7 @@ All three services run inside a single Railway project, communicating over Railw
 
 ## 🎬 Demo Video
 
-> [Add your Loom / YouTube link here — 2–5 min walkthrough]
+> (https://www.loom.com/share/a7d36c1331cb4bd1b972698db628495b)
 
 ---
 
